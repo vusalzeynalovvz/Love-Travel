@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-all{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 160px;
+    margin: 2rem;
+}
+.navbar a{
+    color: #fff;
+    margin-right: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar i{
+    font-size: 30px;
+    margin-right: 63px;
+}
+.button{
+    border: 10px solid #BA71DA;
+    background-color: #BA71DA;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;    
+}
+.section-all{
+    background-image: url(/Photo/parallax-2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 6rem;
+   padding-bottom: 22rem;
+}
+
+.section-all h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 10rem ;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.section-all h6{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.travel h1,p{
+    text-align: center;
+}
+.travel p{
+    color: #9A9A9A;
+}
+.travel h1{
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-weight: bold;    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(85,85,85);
+    padding: 15px;
+}
+
+.travel{
+    padding: 4rem;
+}
+
+.travel-box{
+    width: 31%;
+    float: left;
+    margin: 30px 1%;
+ 
+}
+.travel-box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
